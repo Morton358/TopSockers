@@ -13,7 +13,7 @@ function loadStrzelcy() {
   xhttp.send();
 }
 
-function myFunc(jsonStr){
+function myFunc(jsonStr) {
   var obj = JSON.parse(jsonStr);
   var elements = obj.data.topscorers;
   var table = "<tr><th>Pozycja</th><th>Zawodnik</th><th>Gole</th></tr>";
