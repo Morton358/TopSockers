@@ -19,7 +19,7 @@ body {
 }
 
 #text, #image {
-	display:inline;
+	display:inline-block;
 }
 
 img {
