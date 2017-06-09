@@ -13,9 +13,9 @@ body {
 	margin-bottom: 8%  
 }
 
-#header {
-	height: 200px;
-	text-align:center;
+#text {
+	vertical-align: top;
+	padding-left: 3%;
 }
 
 #text, #image {
@@ -24,13 +24,12 @@ body {
 
 img {
 	background-color: white;
-	vertical-align: middle;
 	display: block;
 	width: auto;
 	height: auto;
+	max-width: 152px;
 	margin: 1%;
 	margin-bottom: 10%;
-
 }
 
 h3 {
@@ -43,10 +42,10 @@ p {
 
 table {
 	background-color: white;
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    color: black;
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	color: black;
 }
 
 th {
@@ -58,19 +57,19 @@ th {
 }
 
 td {
-    border: 1px solid #eaeaea;
-    text-align: left;
-    padding: 8px;
+	border: 1px solid #eaeaea;
+	text-align: left;
+	padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #eaeaea;
+	background-color: #eaeaea;
 }
 
 td:nth-child(odd) {
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 16px;
-    width: 10%;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	width: 10%;
 }
